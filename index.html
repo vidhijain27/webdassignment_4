@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <span class="material-symbols-outlined">
+        check_circle
+    </span>
+    <hr>
+
+    <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+        <h4 id="mainhead">*All fields are mandatory.*</h4>
+        <div>
+            <label for="name">
+                <div>
+                    <h3> &nbsp;Name Section:</h3>
+                </div>
+                <br>
+            </label>
+            <label for="firstname" class = "label">First Name</label>
+            <input type="text" name="first_name" id="firstname" class="inputcontainer" placeholder="Enter here" required>
+            <label for="lastname" class = "label">Last Name</label>
+            <input type="text" name="last_name" id="lastname" class="inputcontainer" class="inputcontainer" placeholder="Enter here" required>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="address">
+                <div>
+                <h3>&nbsp;Address Section:</h3>
+                </div>
+                <br>
+            </label>
+            <label for="street" class = "label">Street</label>
+            <input type="text" name="street_address" id="street" class="inputcontainer" placeholder="Enter here" required>
+            <label for="city" class = "label">City</label>
+            <input type="text" name="city" id="city" class="inputcontainer" placeholder="Enter here" required>
+            <label for="state" class = "label">State</label>
+            <input type="text" name="state" id="state" class="inputcontainer" placeholder="Enter here" required>
+            <label for="pincode" class = "label">Pincode</label>
+            <input type="number" name="pincode" id="pincode" class="inputcontainer" placeholder="Enter here" required>
+        </div>
+        <br>
+<br>
+        <div>
+            <label for="contactno" class = "label">
+                <div>
+                <h3>&nbsp;Contact Number:</h3>
+                </div>
+                <br>
+                
+            </label>
+            <input type="number" name="contact_number" id="contactno" class="inputcontainer" placeholder="Enter here" required>
+        </div>
+        <br>
+<br>
+        <div>
+            <div>
+                <label for="rating">
+                    <div>
+                    <h3>&nbsp;Rating:</h3>
+                    </div>
+                    
+                </label>
+                <label for="qualityofprod">
+                    <h4>Quality of Products recieved:</h4>
+                </label>
+               <div class = "radioclass">
+                Excellent <input type="radio"  value="Excellent" id="qualityofprod" name="quality_of_products_recieved_rating" class="radio" required>
+               </div>
+               <div class = "radioclass">
+                Good <input type="radio" Value="Good" id="qualityofprod" name="quality_of_products_recieved_rating" class="radio" required>
+               </div>
+                <div class = "radioclass">
+                    Bad <input type="radio" value="Bad" id="qualityofprod" name="quality_of_products_recieved_rating" class="radio" required>
+                </div>
+            </div>
+
+            <div>
+                <label for="Valueformoney" >
+                    <h4>Value for money:</h4>
+                </label>
+
+               <div class = "radioclass">
+                Excellent <input type="radio" value="Excellent" id="Valueformoney" name="value_for_money_rating" class="radio" required>
+               </div>
+               <div class = "radioclass">
+                Good <input type="radio" Value="Good"id="Valueformoney" name="value_for_money_rating" class="radio" required>
+               </div>
+                <div class = "radioclass">
+                Bad <input type="radio" value="Bad" id="Valueformoney" name="value_for_money_rating" class="radio" required>
+                </div>
+            </div>
+
+            <div>
+                <label for="delivery" >
+                    <h4>Delivery:</h4>
+                </label>
+                <div class = "radioclass">
+                    Excellent <input type="radio" value="Excellent" id="delivery" name="delivery_rating" class="radio" required>
+                </div>
+                <div class = "radioclass">
+                    Good <input type="radio" Value="Good" id="delivery" name="delivery_rating" class="radio" required>
+                </div>
+                <div class = "radioclass">
+                    Bad <input type="radio" value="Bad" id="delivery" name="delivery_rating" class="radio" required>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="submit"></label>
+            <input type="submit" id="submit" class="submit">
+        </div>
+    </form>
+</body>
+
+</html>
